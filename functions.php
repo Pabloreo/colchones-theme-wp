@@ -32,9 +32,11 @@ function colchones_wp_styles_scripts()
 
     wp_enqueue_style('slicknavCSS', get_template_directory_uri() . '/css/slicknav.min.css', array(), '1.0.0');
 
+    wp_enqueue_style('homepage', get_template_directory_uri() . '/css/homepage.css', array(), '1.0.0');
+
     wp_enqueue_style('googleFont', 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@300&family=Staatliches&display=swap', array(), '1.0.0');
 
-    wp_enqueue_style('style', get_stylesheet_uri(), array('normalize', 'googleFont', 'slicknavCSS'), '1.0.0');
+    wp_enqueue_style('style', get_stylesheet_uri(), array('normalize', 'googleFont', 'slicknavCSS','homepage'), '1.0.0');
 
     wp_enqueue_script('slicknavJS', 'https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js', array('jquery'), '1.0.0', true);
 
