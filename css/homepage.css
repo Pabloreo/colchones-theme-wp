@@ -1,25 +1,20 @@
 .hero {
   width: 100%;
   min-height: 500px;
-  background: rgb(114, 152, 253);
-  background: linear-gradient(
-    45deg,
-    rgba(114, 152, 253, 1) 0%,
-    rgba(175, 241, 249, 1) 94%
-  );
+  background: #231e20;
   font-family: "Open Sans", sans-serif;
 }
 
 .hero_container {
-  background-image: url("http://35.247.39.51/wp-content/uploads/2022/08/hero-img.png");
+  background-image: url("https://colchones.mx/wp-content/uploads/2022/08/hero-img.png");
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: left bottom;
   background-size: 50%;
   min-height: 500px;
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 .hero_container_txt {
@@ -28,29 +23,26 @@
   display: block;
   flex-direction: column;
   justify-content: center;
+  text-align: right;
   padding: 3em;
-  color: #031a32;
+  color: var(--colorPrimario);
 }
 
 .hero_container_txt h1 {
-  color: #132e5c;
   font-family: "Open Sans", sans-serif;
-  font-size: 2.75rem;
+  font-size: 4rem;
   margin: 1em 0;
 }
 
-.hero_container_txt h2 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.75rem;
+.hero_container_txt p {
+    color: var(--headerTxt);
+    line-height: 1;
+    font-size: 2rem;
 }
 
 @media (min-width: 768px) {
   .hero_container_txt {
     max-width: 50%;
-  }
-
-  .hero_container_txt h1 {
-    margin: 2em 0;
   }
 }
 

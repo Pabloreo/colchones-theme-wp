@@ -17,11 +17,13 @@
   --fuenteSecundaria: "Raleway", sans-serif;
 
   /** colores **/
-  --colorPrimario: #84b5cd;
+  --colorPrimario: #fd5a61;
   --azulOscuro: #00022e;
   --azulClaro: #cadbe4;
   --ratingStar: #ffe500;
   --blanco: #ffffff;
+  --heroBg: #231e20;
+  --headerTxt: #fdf8f4;
 }
 
 html {
@@ -116,7 +118,7 @@ hr {
 /** Header **/
 
 .site-header {
-  background-color: var(--blanco);
+  background-color: var(--heroBg);
   padding: 2rem 0;
 }
 
@@ -162,15 +164,14 @@ hr {
 
 .menu-principal a {
   font-family: var(--fuentePrincipal);
-  color: var(--azulOscuro);
-  font-size: 2.2rem;
+  color: var(--headerTxt);
+  font-size: 1.5rem;
   padding: 0.5rem 2rem;
   display: block;
 }
 
 @media (min-width: 768px) {
   .menu-principal a {
-    font-size: 2.6rem;
     position: relative;
     z-index: 1;
   }
@@ -204,30 +205,38 @@ hr {
 }
 
 .menu-principal .current_page_item {
-  border-bottom: 3px solid var(--azulOscuro);
+  border-bottom: 1px solid var(--colorPrimario);
 }
 
 /** Reescribir estilos menu mobile **/
 
-.slicknav_menu {
-  background-color: var(--blanco);
+/* .slicknav_menu {
+  background-color: var(--heroBg);
   color: var(--azulOscuro);
   display: flex;
   align-items: center;
   flex-direction: column;
+} */
+
+.slicknav_menu {
+    padding: 0;
 }
 
 .slicknav_btn {
   background-color: var(--colorPrimario);
   margin: 2rem 0;
   padding: 1rem;
+  position: absolute;
+    top: 40px;
+    left: 10px;
+    outline: none;
 }
 
 .slicknav_nav a {
   font-size: 2.4rem;
   text-align: center;
   font-family: var(--fuentePrincipal);
-  color: var(--azulOscuro);
+  color: var(--headerTxt);
 }
 
 .slicknav_nav a:hover {
