@@ -14,7 +14,7 @@
             <div class="barra-navegacion">
                 <div class="logo">
                     <a href="/">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/logo-desk.png" alt="Logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/colchonpedia.png" alt="Colchonpedia">
                     </a>
                 </div>
                 <?php

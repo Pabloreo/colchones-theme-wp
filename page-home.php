@@ -21,7 +21,8 @@ get_header(); ?>
     </div>
 </div>
 
-<section class="top-colchones section">
+
+<!-- <section class="top-colchones section">
     <h1>Los mejores colchones de México en 2022</h1>
     <div class="card top-1">
         <h2>El colchón ganador 2022</h2>
@@ -151,5 +152,5 @@ get_header(); ?>
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <?php get_footer(); ?>
