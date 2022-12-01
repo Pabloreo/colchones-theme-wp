@@ -9,9 +9,14 @@
     Tags: Colchones, Cama
 */
 
+@font-face { 
+    font-family: "Liber" Script-Regular; 
+    src: url(http://colchones.mx/wp-content/themes/colchones-theme-wp/fonts/liber.ttf); 
+    font-weight: normal; }
+
 :root {
   /** Fuentes **/
-  --fuentePrincipal: "Open Sans", sans-serif;
+  --fuentePrincipal: "Liber", sans-serif;
   --fuenteTextos: "Open Sans", sans-serif;
   --fuenteSecundaria: "Raleway", sans-serif;
 
