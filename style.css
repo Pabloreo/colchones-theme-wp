@@ -9,14 +9,17 @@
     Tags: Colchones, Cama
 */
 
-@font-face { 
-    font-family: "Liber" Script-Regular; 
-    src: url(http://colchones.mx/wp-content/themes/colchones-theme-wp/fonts/liber.ttf); 
-    font-weight: normal; }
+@font-face {
+  font-family: "Liber";
+  src: url('http://colchones.mx/wp-content/themes/colchones-theme-wp/fonts/liber.woff2')
+      format("woff2"),
+    url('http://colchones.mx/wp-content/themes/colchones-theme-wp/fonts/liber.woff')
+      format("woff");
+}
 
 :root {
   /** Fuentes **/
-  --fuentePrincipal: "Liber", sans-serif;
+  --fuentePrincipal: "Liber",  sans-serif;
   --fuenteTextos: "Open Sans", sans-serif;
   --fuenteSecundaria: "Raleway", sans-serif;
 
@@ -100,9 +103,9 @@ hr {
 }
 
 .section {
-    max-width: 1400px;
-    width: 80%;
-    margin: 1em auto;
+  max-width: 1400px;
+  width: 80%;
+  margin: 1em auto;
 }
 
 /** Utilidades**/
@@ -223,7 +226,7 @@ hr {
 } */
 
 .slicknav_menu {
-    padding: 0;
+  padding: 0;
 }
 
 .slicknav_btn {
@@ -231,9 +234,9 @@ hr {
   margin: 2rem 0;
   padding: 1rem;
   position: absolute;
-    top: 40px;
-    left: 10px;
-    outline: none;
+  top: 40px;
+  left: 10px;
+  outline: none;
 }
 
 .slicknav_nav a {

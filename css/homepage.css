@@ -29,7 +29,6 @@
 }
 
 .hero_container_txt h1 {
-  font-family: "Open Sans", sans-serif;
   font-size: 4rem;
   margin: 1em 0;
 }
@@ -51,4 +50,75 @@
   .hero_container {
     min-height: 700px;
   }
+}
+.best {
+    margin: 2em 0;
+}
+
+.best-txt {
+  margin-top: 40px;
+  padding: 2em;
+}
+
+.best-txt h1,
+.best-testimonials h1,
+.best-testimonials h3,
+.best-testimonials h2 {
+  color: #ff5a62;
+}
+
+.best-txt h2 {
+  font-size: 16px;
+}
+
+.best-txt ul {
+  list-style-type: circle;
+  margin-left: 1em;
+}
+
+@media (min-width: 768px) {
+  .best {
+    background-image: url("https://colchones.mx/wp-content/uploads/2022/12/mano.png");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+  .best-txt {
+    width: 50%;
+  }
+}
+
+.best-testimonials,
+.best-testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.best-testimonials h1 {
+    margin: 0 0 1em;
+}
+
+.best-testimonials-stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.best-testimonials-stars img {
+    width: 35px;
+    object-fit: contain;
+    margin: 1em;
+}
+
+.best-testimonials {
+    max-width: 80%;
+    margin: 2em auto;
+}
+
+.best-testimonials h3 {
+    font-size: 20px;
 }
