@@ -52,7 +52,8 @@
   }
 }
 .best {
-    margin: 2em 0;
+    max-width: 1440px;
+    margin: 2em auto;
 }
 
 .best-txt {
@@ -89,7 +90,7 @@
 }
 
 .best-testimonials,
-.best-testimonials{
+.contendiente-testimonials{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,18 +99,22 @@
     margin: 2em 0;
 }
 
-.best-testimonials h1 {
+.best-testimonials h1,
+.contendiente-testimonials h1 {
     margin: 0 0 1em;
 }
 
-.best-testimonials-stars {
+.best-testimonials-stars,
+.contendiente-testimonials-stars {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.best-testimonials-stars img {
+.best-testimonials-stars img,
+.contendiente-testimonials-stars img{
     width: 35px;
+    height: 35px;
     object-fit: contain;
     margin: 1em;
 }
@@ -121,4 +126,31 @@
 
 .best-testimonials h3 {
     font-size: 20px;
+}
+
+.contendientes {
+    background-color: #ff5a62;
+    color: #fff;
+    padding: 2em;
+}
+
+.contendientes-content {
+    max-width: 1440px;
+    margin: 2em auto;
+}
+
+.contendientes-content h1 {
+    margin: 2em 0;
+}
+
+@media (min-width: 768px) {
+    .contendientes-content {
+      background-image: url("https://colchones.mx/wp-content/uploads/2022/12/antifaz.png");
+      background-size: 30%;
+      background-repeat: no-repeat;
+      background-position: right top;
+    }
+  }
+.contendiente h1 {
+    margin: 1em 0 0;
 }
