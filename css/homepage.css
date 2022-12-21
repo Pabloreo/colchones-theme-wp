@@ -73,7 +73,6 @@
 }
 
 .best-txt ul {
-  list-style-type: circle;
   margin-left: 1em;
 }
 
@@ -149,5 +148,5 @@
     }
   }
 .contendiente h1 {
-    margin: 1em 0 0;
+    margin: 1em auto ;
 }
